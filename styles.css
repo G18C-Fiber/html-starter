@@ -1,73 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salon Website</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+@font-face {
+    font-family: 'Cosmopolitan Script';
+    src: url('Fonts/CosmopolitanScript.otf') format('opentype');
+}
 
-    <header class="sticky-top bg-gray">
-        <div class="container d-flex align-items-center justify-content-between">
-            <nav class="mr-auto"> <!-- Use mr-auto to push the next item to the right -->
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="gallery.html">Gallery</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="d-flex align-items-center mx-auto"> <!-- Centering the logo and title -->
-                <img src="logo500.png" alt="Salon Logo" class="logo">
-                <h1 class="salon-title">
-                    Salon Luxury Beauty <span class="trademark">™</span>
-                </h1>
-            </div>
-            <nav>
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="about.html">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="contact.html">Contact Us</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+body {
+    font-family: Arial, sans-serif;
+}
 
-    <main class="container mt-5">
-        <p class="text-center">Experience the best services tailored just for you!</p>
+header {
+    padding: 20px 0; /* Increased padding for better appearance */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
-        <section class="row mt-4">
-            <div class="col-md-4">
-                <h2>Services</h2>
-                <p>Explore our wide range of beauty services.</p>
-            </div>
-            <div class="col-md-4">
-                <h2>About Us</h2>
-                <p>Learn more about our salon and our team of professionals.</p>
-            </div>
-            <div class="col-md-4">
-                <h2>Contact</h2>
-                <p>Get in touch with us for appointments and inquiries.</p>
-            </div>
-        </section>
+.bg-gray {
+    background-color: #333333; /* Dark gray background */
+}
 
-        <div style="height: 800px;"></div> <!-- Placeholder for scrolling -->
+.container {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between logo/title and navigation */
+}
 
-    </main>
+.salon-title {
+    font-family: 'Cosmopolitan Script', cursive, Arial, sans-serif; /* Added fallback font */
+    font-size: 55px; /* Adjust font size as needed */
+    color: #fff; /* White text for contrast */
+    margin: 0; /* Remove default margin */
+    /* Make the title bold */
+}
 
-    <footer class="text-center mt-5 mb-3">
-        <p>&copy; 2024 Your Salon Name. All Rights Reserved.</p>
-    </footer>
+.trademark {
+    font-family: Arial, sans-serif; /* Ensure the ™ uses Arial font */
+    font-size: 18px; /* Decrease the font size for the ™ symbol */
+    color: #fff; /* Match the color of the title */
+    vertical-align: super; /* Adjust vertical alignment */
+    position: relative; /* Use position for finer control */
+    top: 8px; /* Move the ™ symbol down by 8 pixels */
+    right: 5px; /* Adjust the horizontal position */
+    font-weight: bold; /* Make the ™ symbol bold */
+}
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+.logo {
+    width: 50px; /* Adjust the width to make the logo smaller */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add right margin for space between logo and title */
+}
+
+.nav {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+.nav-item {
+    margin-left: 20px; /* Add space between navigation items */
+}
+
+.nav-link {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Ensure links are white */
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+h2 {
+    color: #ddd; /* Light gray color for headings */
+}
+
+main {
+    color: #333; /* Default text color for main content */
+}
