@@ -44,7 +44,7 @@ header {
 .logo {
     width: 50px; /* Adjust the width to make the logo smaller */
     height: auto; /* Maintain aspect ratio */
-    margin-right: 45px; /* Add right margin to create space between logo and title */
+    margin-right: 35px; /* Add right margin to create space between logo and title */
 }
 
 h2 {
