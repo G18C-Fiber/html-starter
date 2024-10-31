@@ -29,7 +29,8 @@ header {
     color: #fff; /* Match the color of the title */
     vertical-align: super; /* Adjust vertical alignment */
     position: relative; /* Use position for finer control */
-    top: 5px; /* Move the ™ symbol down by 5 pixels */
+    top: 8px;/* Move the ™ symbol down by 5 pixels */
+    right:5px;
 }
 
 h2 {
