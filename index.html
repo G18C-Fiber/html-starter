@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Salon Website</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
-    .sticky-header {
-      position: sticky;
-      top: 0;
-      width: 100%;
-      background-color: #fff;
-      box-shadow: 0 4px 2px -2px gray;
-      z-index: 1000;
-      text-align: center;
-    }
-    .sticky-header .logo {
-      display: inline-block;
-      width: 128px;
-      height: 64px;
-      background: url('logo12864.png') no-repeat center center;
-      background-size: contain;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon Website</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="sticky-header">
-    <div class="container">
-      <div class="logo"></div>
-    </div>
-  </header>
-  <main class="container mt-5">
-    <h1>Welcome to Our Salon</h1>
-    <p>Your one-stop destination for all your beauty needs.</p>
-  </main>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <header class="sticky-top bg-light">
+        <div class="container text-center">
+            <img src="Logo12864.png" alt="Salon Logo" class="img-fluid" style="max-width: 128px;">
+        </div>
+    </header>
+
+    <main class="container mt-5">
+        <h1 class="text-center">Welcome to Our Salon</h1>
+        <p class="text-center">Experience the best services tailored just for you!</p>
+
+        <section class="row mt-4">
+            <div class="col-md-4">
+                <h2>Services</h2>
+                <p>Explore our wide range of beauty services.</p>
+            </div>
+            <div class="col-md-4">
+                <h2>About Us</h2>
+                <p>Learn more about our salon and our team of professionals.</p>
+            </div>
+            <div class="col-md-4">
+                <h2>Contact</h2>
+                <p>Get in touch with us for appointments and inquiries.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center mt-5 mb-3">
+        <p>&copy; 2024 Your Salon Name. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
