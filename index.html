@@ -1,90 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Bootstrap Website</title>
-    <!-- Bootstrap CSS CDN -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .navbar {
-            display: flex;
-            justify-content: space-between; /* Space between nav items and logo */
-            align-items: center; /* Center vertically */
-        }
-        .navbar-brand {
-            flex-grow: 1; /* Allow the brand to take up remaining space */
-            text-align: center; /* Center the brand text */
-            margin: 0; /* Remove default margins */
-        }
-        .navbar-brand img {
-            height: 64px; /* Set the logo height to 64px for better visibility */
-        }
-        .navbar-nav {
-            margin: 0; /* Remove margin to keep items aligned */
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salon Website</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .sticky-header {
+      position: sticky;
+      top: 0;
+      width: 100%;
+      background-color: #333;
+      z-index: 1000;
+    }
+    .sticky-header .logo {
+      display: block;
+      margin: 0 auto;
+      padding: 10px 0;
+      width: 128px;
+      height: 128px;
+      background: url('logo12864.png') no-repeat center center;
+      background-size: cover;
+    }
+  </style>
 </head>
 <body>
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-        <a class="navbar-brand" href="#">
-            <img src="Logo12864.png" alt="Logo"> <!-- Your logo filename -->
-        </a>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="home" class="jumbotron text-center bg-primary text-white">
-        <h1 class="display-4">Welcome to My Website</h1>
-        <p class="lead">This is a simple, responsive website made with Bootstrap.</p>
-        <a href="#features" class="btn btn-light btn-lg">Learn More</a>
-    </section>
-
-    <!-- Features Section -->
-    <section id="features" class="container my-5">
-        <div class="row text-center">
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Feature 1</h5>
-                        <p class="card-text">Description of Feature 1.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Feature 2</h5>
-                        <p class="card-text">Description of Feature 2.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Feature 3</h5>
-                        <p class="card-text">Description of Feature 3.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer id="contact" class="bg-dark text-white text-center py-4">
-        <p>Contact us at <a href="mailto:info@example.com" class="text-white">info@example.com</a></p>
-        <p>&copy; 2023 MyWebsite. All rights reserved.</p>
-    </footer>
-
-    <!-- Bootstrap JS and dependencies -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <header class="sticky-header">
+    <div class="container">
+      <div class="logo"></div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <h1>Welcome to Our Salon</h1>
+      <p>Your one-stop destination for all your beauty needs.</p>
+    </div>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
