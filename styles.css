@@ -21,6 +21,7 @@ header {
     font-size: 55px; /* Adjust font size as needed */
     color: #fff; /* White text for contrast */
     margin: 0; /* Remove default margin */
+    margin-left: 20px; /* Add a left margin to the title for spacing */
     /* Make the title bold */
 }
 
@@ -36,9 +37,10 @@ header {
 }
 
 .logo {
-    width: 35px; /* Adjust the width to make the logo smaller */
+    width: 50px; /* Adjust the width to make the logo smaller */
     height: auto; /* Maintain aspect ratio */
-    margin-right: 600px; /* Space between the logo and the title */
+    margin-right: 0; /* Remove the right margin from the logo */
+    margin-left: 0; /* Optional: Set to zero or adjust as needed */
 }
 
 h2 {
