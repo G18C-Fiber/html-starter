@@ -7,25 +7,24 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
+      font-family: Arial, sans-serif;
     }
     .sticky-header {
       position: sticky;
       top: 0;
       width: 100%;
-      background-color: #333;
+      background-color: #fff;
+      box-shadow: 0 4px 2px -2px gray;
       z-index: 1000;
+      text-align: center;
     }
     .sticky-header .logo {
-      display: block;
-      margin: 0 auto;
-      padding: 10px 0;
+      display: inline-block;
       width: 128px;
-      height: 128px;
+      height: 64px;
       background: url('logo12864.png') no-repeat center center;
-      background-size: cover;
+      background-size: contain;
     }
   </style>
 </head>
@@ -35,11 +34,9 @@
       <div class="logo"></div>
     </div>
   </header>
-  <main>
-    <div class="container">
-      <h1>Welcome to Our Salon</h1>
-      <p>Your one-stop destination for all your beauty needs.</p>
-    </div>
+  <main class="container mt-5">
+    <h1>Welcome to Our Salon</h1>
+    <p>Your one-stop destination for all your beauty needs.</p>
   </main>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
