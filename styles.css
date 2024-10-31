@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Cosmopolitan Script';
+    src: url('Fonts/CosmopolitanScript.otf') format('opentype'); /* Adjust if you have a different format or name */
+}
+
 body {
     font-family: Arial, sans-serif;
 }
@@ -25,4 +30,3 @@ h2 {
 main {
     color: #333; /* Default text color for main content */
 }
-
