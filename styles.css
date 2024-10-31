@@ -18,7 +18,7 @@ header {
 
 .salon-title {
     font-family: 'Cosmopolitan Script', cursive, Arial, sans-serif; /* Added fallback font */
-    font-size: 150px; /* Adjust font size as needed */
+    font-size: 75px; /* Adjust font size as needed */
     color: #fff; /* White text for contrast */
     margin: 0; /* Remove default margin */
     /* Make the title bold */
