@@ -26,7 +26,7 @@ header {
 
 .trademark {
     font-family: Arial, sans-serif; /* Ensure the ™ uses Arial font */
-    font-size: 23px; /* Decrease the font size for the ™ symbol */
+    font-size: 18px; /* Decrease the font size for the ™ symbol */
     color: #fff; /* Match the color of the title */
     vertical-align: super; /* Adjust vertical alignment */
     position: relative; /* Use position for finer control */
