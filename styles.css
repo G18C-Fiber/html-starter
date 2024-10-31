@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Cosmopolitan Script';
-    src: url('Fonts/CosmopolitanScript.otf') format('opentype'); /* Adjust if you have a different format or name */
+    src: url('fonts/CosmopolitanScript.otf') format('opentype');
 }
 
 body {
@@ -21,6 +21,13 @@ header {
     font-size: 36px; /* Adjust font size as needed */
     color: #fff; /* White text for contrast */
     margin: 0; /* Remove default margin */
+}
+
+.trademark {
+    font-family: Arial, sans-serif; /* Ensure the ™ uses Arial font */
+    font-size: 24px; /* Adjust the size as needed */
+    color: #fff; /* Match the color of the title */
+    vertical-align: super; /* Aligns the ™ symbol higher */
 }
 
 h2 {
