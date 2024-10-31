@@ -35,6 +35,12 @@ header {
     font-weight: bold; /* Make the ™ symbol bold */
 }
 
+.logo {
+    width: 80px; /* Adjust the width of the logo as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between the logo and the title */
+}
+
 h2 {
     color: #ddd; /* Light gray color for headings */
 }
