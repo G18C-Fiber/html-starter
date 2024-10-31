@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Cosmopolitan Script';
-    src: url('Fonts/CosmopolitanScript.otf') format('opentype');
+    src: url('fonts/CosmopolitanScript.otf') format('opentype');
 }
 
 body {
@@ -17,7 +17,7 @@ header {
 }
 
 .salon-title {
-    font-family: 'Cosmopolitan Script', cursive; /* Use the Cosmopolitan Script font */
+    font-family: 'Cosmopolitan Script', cursive, Arial, sans-serif; /* Added fallback font */
     font-size: 36px; /* Adjust font size as needed */
     color: #fff; /* White text for contrast */
     margin: 0; /* Remove default margin */
@@ -25,9 +25,11 @@ header {
 
 .trademark {
     font-family: Arial, sans-serif; /* Ensure the ™ uses Arial font */
-    font-size: 24px; /* Adjust the size as needed */
+    font-size: 18px; /* Decrease the font size for the ™ symbol */
     color: #fff; /* Match the color of the title */
-    vertical-align: super; /* Aligns the ™ symbol higher */
+    vertical-align: super; /* Adjust vertical alignment */
+    position: relative; /* Use position for finer control */
+    top: 5px; /* Move the ™ symbol down by 5 pixels */
 }
 
 h2 {
