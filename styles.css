@@ -21,6 +21,7 @@ header {
     font-size: 36px; /* Adjust font size as needed */
     color: #fff; /* White text for contrast */
     margin: 0; /* Remove default margin */
+    font-weight: bold; /* Make the title bold */
 }
 
 .trademark {
@@ -29,8 +30,9 @@ header {
     color: #fff; /* Match the color of the title */
     vertical-align: super; /* Adjust vertical alignment */
     position: relative; /* Use position for finer control */
-    top: 8px;/* Move the ™ symbol down by 5 pixels */
-    right:5px;
+    top: 8px; /* Move the ™ symbol down by 8 pixels */
+    right: 5px; /* Adjust the horizontal position */
+    font-weight: bold; /* Make the ™ symbol bold */
 }
 
 h2 {
