@@ -21,7 +21,7 @@ header {
     font-size: 150px; /* Adjust font size as needed */
     color: #fff; /* White text for contrast */
     margin: 0; /* Remove default margin */
-    font-weight: bold; /* Make the title bold */
+    /* Make the title bold */
 }
 
 .trademark {
