@@ -7,11 +7,20 @@
     <!-- Bootstrap CSS CDN -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        .navbar .navbar-brand {
-            margin: auto; /* Centers the logo */
+        .navbar {
+            display: flex;
+            justify-content: space-between; /* Space between nav items and logo */
+            align-items: center; /* Center vertically */
+        }
+        .navbar-brand {
+            flex-grow: 1; /* Allow the brand to take up remaining space */
+            text-align: center; /* Center the brand text */
         }
         .navbar-brand img {
-            height: 40px; /* Adjust the height of the logo */
+            height: 64px; /* Set the logo height to 64px for better visibility */
+        }
+        .navbar-nav {
+            flex: 0 0 auto; /* Prevent nav items from stretching */
         }
     </style>
 </head>
