@@ -20,17 +20,21 @@ header {
 
 .content-container {
     display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Space between video and text */
-    align-ites: flex-start; /* Align ites to the top */
+    justify-content: center; /* Center content */
+    align-items: flex-start; /* Align items to the top */
+    max-width: 800px; /* Maximum width for the container */
+    margin: 0 auto; /* Center the container on the page */
 }
 
 .video-container {
-    width: 45%; /* Width for the video container */
+    width: 50%; /* Width for the video container */
+    max-width: 400px; /* Maximum width for the video container */
     border-radius: 20px; /* Rounded corners */
     overflow: hidden; /* Ensure the video fits within rounded corners */
     background-color: #333; /* Dark background for the video container */
     position: relative;
-    padding-top: 177.78%; /* 16:9 Aspect Ratio (height = width * 9/16) */
+    padding-top: 177.78%; /* 9:16 Aspect Ratio (height = width * 16/9) */
+    margin-right: 20px; /* Space between video and text box */
 }
 
 .video-container video {
@@ -42,11 +46,11 @@ header {
 }
 
 .text-box {
-    width: 45%; /* Width for the text box */
+    width: 50%; /* Width for the text box */
+    max-width: 400px; /* Maximum width for the text box */
     background-color: #444; /* Background for the text box */
     border-radius: 10px; /* Rounded corners */
     padding: 20px; /* Padding inside the text box */
-    margin-left: 20px; /* Space between video and text box */
 }
 
 .text-box h2 {
