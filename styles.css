@@ -6,7 +6,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #1a1a1a; /* Darker background color than header */
-    color: #fff; /* Set default text color to white for contrast */
+    color: #fff;
 }
 
 header {
@@ -15,7 +15,7 @@ header {
 }
 
 .bg-gray {
-    background-color: #333333;
+    background-color: #333333; /* Dark gray header */
 }
 
 .container {
@@ -65,12 +65,12 @@ header {
 }
 
 .nav-link:hover {
-    color: #007bff !important;
+    color: #007bff !important; /* Blue color on hover */
 }
 
 .intro-box {
     display: flex;
-    background-color: #333333; /* Dark gray background for intro box */
+    background-color: #333333; /* Dark gray background for the intro box */
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 30px;
