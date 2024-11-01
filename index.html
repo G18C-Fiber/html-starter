@@ -3,66 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salon Website</title>
+    <title>Salon Luxury Beauty</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400&display=swap" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
-<header class="sticky-top bg-gray">
-    <div class="container">
-        <nav class="navbar">
-            <ul class="nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">Gallery</a>
-                </li>
-            </ul>
-            <div class="d-flex align-items-center justify-content-center">
-                <img src="logo500.png" alt="Logo" class="logo">
-                <h1 class="salon-title">
-                    Salon Luxury Beauty <span class="trademark">™</span>
-                </h1>
+    <header class="sticky-top bg-gray">
+        <div class="container">
+            <nav class="navbar">
+                <ul class="nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center justify-content-center">
+                    <img src="logo500.png" alt="Logo" class="logo">
+                    <h1 class="salon-title">
+                        Salon Luxury Beauty <span class="trademark">™</span>
+                    </h1>
+                </div>
+                <ul class="nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mt-5 content-section">
+        <div class="media-container">
+            <!-- Video Container -->
+            <div class="video-box">
+                <video controls width="100%">
+                    <source src="your-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
             </div>
-            <ul class="nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-</header>
-
-<main class="container mt-5">
-    <div class="intro-box d-flex align-items-center">
-        <div class="video-container">
-            <video width="100%" controls>
-                <source src="your-video-file.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            <!-- Text Container -->
+            <div class="text-box">
+                <p>At <strong>Salon Luxury Beauty™</strong> we’re dedicated to providing you with exceptional beauty services tailored to your needs. Enjoy the convenience of our at-home services or visit one of our partner salons in Brooklyn and Queens. Our skilled stylists are here to ensure you leave looking and feeling your best. Experience Luxury Beauty wherever you are!</p>
+            </div>
         </div>
-        <div class="text-container ml-4">
-            <p class="intro-text">
-                At Salon Luxury Beauty™ we’re dedicated to providing you with exceptional beauty services tailored to your needs. Enjoy the convenience of our at-home services or visit one of our partner salons in Brooklyn and Queens. Our skilled stylists are here to ensure you leave looking and feeling your best. Experience Luxury Beauty wherever you are!
-            </p>
-        </div>
-    </div>
-</main>
+    </main>
 
-<footer class="text-center mt-5 mb-3">
-    <p>&copy; 2024 Your Salon Name. All Rights Reserved.</p>
-</footer>
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <footer class="text-center mt-5 mb-3">
+        <p>&copy; 2024 Your Salon Name. All Rights Reserved.</p>
+    </footer>
 
 </body>
 </html>
-
