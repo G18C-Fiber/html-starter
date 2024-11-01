@@ -29,7 +29,7 @@ header {
 .video-container {
     width: 100%; /* Set width to fill available space */
     max-width: 300px; /* Limit max width for a smaller video */
-    height: 200px; /* Set a fixed height */
+    height: 350px; /* Set a fixed height */
     border-radius: 20px; /* Rounded corners */
     overflow: hidden; /* Ensure the video fits within rounded corners */
     background-color: #333; /* Dark background for the video container */
