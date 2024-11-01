@@ -8,70 +8,69 @@ body {
 }
 
 header {
-    padding: 20px 0; /* Increased padding for better appearance */
+    padding: 20px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .bg-gray {
-    background-color: #333333; /* Dark gray background */
+    background-color: #333333;
 }
 
 .container {
-    display: flex; /* Use flexbox for alignment */
-    align-items: center; /* Center items vertically */
-    justify-content: space-between; /* Space between logo/title and navigation */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .salon-title {
-    font-family: 'Cosmopolitan Script', cursive, Arial, sans-serif; /* Added fallback font */
-    font-size: 55px; /* Adjust font size as needed */
-    color: #fff; /* White text for contrast */
-    margin: 0; /* Remove default margin */
-    /* Make the title bold */
+    font-family: 'Cosmopolitan Script', cursive, Arial, sans-serif;
+    font-size: 55px;
+    color: #fff;
+    margin: 0;
+    font-weight: bold;
 }
 
 .trademark {
-    font-family: Arial, sans-serif; /* Ensure the ™ uses Arial font */
-    font-size: 18px; /* Decrease the font size for the ™ symbol */
-    color: #fff; /* Match the color of the title */
-    vertical-align: super; /* Adjust vertical alignment */
-    position: relative; /* Use position for finer control */
-    top: 8px; /* Move the ™ symbol down by 8 pixels */
-    right: 5px; /* Adjust the horizontal position */
-    font-weight: bold; /* Make the ™ symbol bold */
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    vertical-align: super;
+    position: relative;
+    top: 8px;
+    right: 5px;
+    font-weight: bold;
 }
 
 .logo {
-    width: 50px; /* Adjust the width to make the logo smaller */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 20px; /* Add right margin for space between logo and title */
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
 }
 
 .nav {
-    list-style: none; /* Remove bullet points */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margin */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
 
 .nav-item {
-    margin-left: 20px; /* Add space between navigation items */
+    margin-left: 20px;
 }
 
-/* Navigation link hover effect */
 .nav-link {
-    color: #fff; /* Default text color */
-    transition: color 0.3s ease; /* Smooth transition */
+    color: #fff;
+    transition: color 0.3s ease;
 }
 
 .nav-link:hover {
-    color: #007bff; /* Blue color on hover */
+    color: #007bff !important;
 }
 
-
 h2 {
-    color: #ddd; /* Light gray color for headings */
+    color: #ddd;
 }
 
 main {
-    color: #333; /* Default text color for main content */
+    color: #333;
 }
