@@ -5,7 +5,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #1c1c1c; /* Slightly lighter than black */
+    background-color: #222222; /* Light black background */
     color: #fff; /* Default text color */
 }
 
@@ -15,18 +15,43 @@ header {
 }
 
 .bg-gray {
-    background-color: #333333; /* Dark gray background */
+    background-color: #333333; /* Dark gray background for header */
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* Space between logo/title and navigation */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space between video and text */
+    margin-top: 20px; /* Space above the content */
+}
+
+.video-container {
+    width: 60%; /* Adjust width for the video box */
+    border-radius: 20px; /* Rounded corners */
+    overflow: hidden; /* Ensure the video fits within rounded corners */
+    background-color: #333; /* Dark background for the video container */
+}
+
+.video-container video {
+    width: 100%; /* Full width of the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.text-box {
+    width: 35%; /* Width for the text box */
+    background-color: #444; /* Background for the text box */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the text box */
+    margin-left: 20px; /* Space between video and text box */
+}
+
+.text-box h2 {
+    margin-bottom: 10px; /* Space below the heading */
+    color: #fff; /* Heading color */
 }
 
 .salon-title {
     font-family: 'Cosmopolitan Script', cursive, Arial, sans-serif; /* Added fallback font */
-    font-size: 55px; /* Title font size */
+    font-size: 55px; /* Adjust font size as needed */
     color: #fff; /* White text for contrast */
     margin: 0; /* Remove default margin */
     font-weight: bold; /* Make the title bold */
@@ -44,7 +69,7 @@ header {
 }
 
 .logo {
-    width: 50px; /* Adjust the width of the logo */
+    width: 50px; /* Adjust the width to make the logo smaller */
     height: auto; /* Maintain aspect ratio */
     margin-right: 20px; /* Add right margin for space between logo and title */
 }
@@ -53,7 +78,7 @@ header {
     list-style: none; /* Remove bullet points */
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margin */
-    display: flex; /* Flexbox for navigation items */
+    display: flex; /* Align navigation items in a row */
 }
 
 .nav-item {
@@ -69,51 +94,14 @@ header {
     color: #007bff !important; /* Blue color on hover */
 }
 
-.content-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 80vh; /* Ensure content section takes up space */
-}
-
-.media-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px; /* Space between video and text box */
-}
-
-.video-box {
-    width: 100%;
-    max-width: 400px; /* Max width for video box */
-    aspect-ratio: 9 / 16; /* Maintain aspect ratio */
-    background: #000; /* Black background for video box */
-    border-radius: 16px; /* Rounded corners */
-    overflow: hidden; /* Hide overflow */
-    display: flex; /* Flexbox for centering video */
-    align-items: center;
-    justify-content: center;
-}
-
-.video-box video {
-    width: 100%; /* Full width video */
-    height: 100%; /* Full height video */
-    border-radius: 16px; /* Match rounded corners */
-}
-
-.text-box {
-    width: 100%;
-    max-width: 400px; /* Max width for text box */
-    background: #2e2e2e; /* Dark background for text box */
-    padding: 20px; /* Padding for text box */
-    border-radius: 16px; /* Rounded corners */
-    color: #ddd; /* Light gray text color */
-    line-height: 1.5; /* Line height for better readability */
-}
-
 h2 {
     color: #ddd; /* Light gray color for headings */
 }
 
 main {
     color: #333; /* Default text color for main content */
+}
+
+footer {
+    color: #ccc; /* Color for footer text */
 }
