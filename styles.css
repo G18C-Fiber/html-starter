@@ -27,22 +27,20 @@ header {
 }
 
 .video-container {
-    width: 40%; /* Reduced width for smaller video */
-    max-width: 300px; /* Reduced max-width for smaller display */
+    width: 100%; /* Set width to fill available space */
+    max-width: 300px; /* Limit max width for a smaller video */
+    height: 200px; /* Set a fixed height */
     border-radius: 20px; /* Rounded corners */
     overflow: hidden; /* Ensure the video fits within rounded corners */
     background-color: #333; /* Dark background for the video container */
     position: relative;
-    padding-top: 177.78%; /* 9:16 Aspect Ratio */
     margin-right: 20px; /* Space between video and text box */
 }
 
 .video-container video {
-    position: absolute; /* Positioning the video */
-    top: 0;
-    left: 0;
     width: 100%; /* Full width of the container */
     height: 100%; /* Full height of the container */
+    object-fit: cover; /* Cover the entire container area */
 }
 
 .text-box {
