@@ -18,26 +18,31 @@ header {
     background-color: #333333; /* Dark gray background for header */
 }
 
-.container {
-    display: flex; /* Use flexbox for alignment */
+.content-container {
+    display: flex; /* Use flexbox for layout */
     justify-content: space-between; /* Space between video and text */
-    margin-top: 20px; /* Space above the content */
+    align-ites: flex-start; /* Align ites to the top */
 }
 
 .video-container {
-    width: 60%; /* Adjust width for the video box */
+    width: 45%; /* Width for the video container */
     border-radius: 20px; /* Rounded corners */
     overflow: hidden; /* Ensure the video fits within rounded corners */
     background-color: #333; /* Dark background for the video container */
+    position: relative;
+    padding-top: 177.78%; /* 16:9 Aspect Ratio (height = width * 9/16) */
 }
 
 .video-container video {
+    position: absolute; /* Positioning the video */
+    top: 0;
+    left: 0;
     width: 100%; /* Full width of the container */
-    height: auto; /* Maintain aspect ratio */
+    height: 100%; /* Full height of the container */
 }
 
 .text-box {
-    width: 35%; /* Width for the text box */
+    width: 45%; /* Width for the text box */
     background-color: #444; /* Background for the text box */
     border-radius: 10px; /* Rounded corners */
     padding: 20px; /* Padding inside the text box */
