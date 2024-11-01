@@ -5,7 +5,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #333333; /* Match main background color to header */
+    background-color: #1a1a1a; /* Darker background color than header */
     color: #fff; /* Set default text color to white for contrast */
 }
 
@@ -70,7 +70,7 @@ header {
 
 .intro-box {
     display: flex;
-    background-color: #444444;
+    background-color: #333333; /* Dark gray background for intro box */
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 30px;
@@ -89,12 +89,4 @@ header {
     font-size: 18px;
     line-height: 1.5;
     color: #ddd;
-}
-
-h2 {
-    color: #ddd;
-}
-
-main {
-    color: #333;
 }
